@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-g8=ge2m97@02vsxynlc2_8b+b30l9khpc1atz(z@c8=3h(1la*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [""]
 
 
 # Application definition
@@ -74,7 +74,7 @@ TEMPLATES = [
 ]
 
 #WSGI_APPLICATION = 'Django_Tutorial_CICD.wsgi.application'
-WSGI_APPLICATION = 
+WSGI_APPLICATION = 'Django_Tutorial_CICD.wsgi.app'
 
 
 # Database
