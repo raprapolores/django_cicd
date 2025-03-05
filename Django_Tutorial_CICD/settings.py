@@ -73,7 +73,8 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Django_Tutorial_CICD.wsgi.application'
+#WSGI_APPLICATION = 'Django_Tutorial_CICD.wsgi.application'
+WSGI_APPLICATION = 'Django_Tutorial_CICD.wsgi.app'
 
 
 # Database
